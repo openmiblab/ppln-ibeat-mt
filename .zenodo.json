@@ -1,0 +1,27 @@
+{
+  "title": "iBEAt study: Magnetisation Transfer (MT) pipeline",
+  "upload_type": "software",
+  "description": "See the README on GitHub: https://github.com/EbonyGunwhy/ppln-ibeat-mt",
+  "creators": [
+    {
+      "name": "Gunwhy, Ebony",
+      "affiliation": "University of Sheffield"
+    }
+  ],
+  "keywords": ["biomarkers", "imaging"],
+  "license": "Apache-2.0",
+  "version": "v0.0.0",
+  "publication_date": "2026-07-10",
+  "related_identifiers": [
+    {
+      "relation": "isSupplementTo",
+      "identifier": "https://github.com/EbonyGunwhy/ppln-ibeat-mt"
+    }
+  ],
+  "url": "https://miblab.org",
+  "communities": [
+    {
+      "identifier": "miblab"
+    }
+  ]
+}
