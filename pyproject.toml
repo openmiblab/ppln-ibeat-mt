@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ibeat-mt" # name needs to exactly match folder name in src but with dashes, no underscore
+version = "0.0.0"
+dependencies = [
+  'numpy',
+  'pandas',
+  'seaborn',
+  'antspyx',
+  'dbdicom',
+  'vreg',
+  'mdreg[ants]',
+  'numpyradiomics',
+  'pydmr',
+  'miblab',
+  'miblab-data',
+  'miblab_plot'
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
